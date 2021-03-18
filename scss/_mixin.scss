@@ -1,0 +1,37 @@
+@mixin breakpoint($point) {
+    @if $point==inch16 {
+        @media only screen and (max-width: 1530px) {
+            @content;
+        }
+    }
+    @else if $point==desktop {
+        @media only screen and (max-width: 1199px) {
+            @content;
+        }
+    }
+    @else if $point==tablet {
+        @media only screen and (max-width: 1030px) {
+            @content;
+        }
+    }
+    @else if $point==tablet_portrait {
+        @media only screen and (max-width: 991px) {
+            @content;
+        }
+    }
+    @else if $point==mobile_landscape {
+        @media only screen and (max-width: 820px) {
+            @content;
+        }
+    }
+    @else if $point==mobile_portrait {
+        @media only screen and (max-width: 479px) {
+            @content;
+        }
+    }
+    @else if $point==mini {
+        @media only screen and (max-width: 375px) {
+            @content;
+        }
+    }
+}

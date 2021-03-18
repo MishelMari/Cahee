@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cahee</title>
+    <link rel="shortcut icon" href="./image/li.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="scss/_mixin.min.css">
+    <link href="./scss/hamburger.css" rel="stylesheet">
+    <link rel="stylesheet" href="scss/hamburger_mixin.scss">
+
+</head>
+
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- HEADER Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo logo">
+                    <a class="logo__link" href="#">
+                        <img src="./image/logo1.png" alt="cahee">
+                    </a>
+                </div>
+
+                <div class="header__menu">
+                    <nav class="header__nav">
+
+                        <div class="hum">
+                            <div class="menuToggle icon">
+                                <div class="hamburger"></div>
+                            </div>
+
+                            <ul class="header__menu menu">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link menu__link--active">Home</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#about" class="menu__link menu__link--active">About</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#services" class="menu__link menu__link--active">Services</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#gallery" class="menu__link menu__link--active">Gallery</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#blog" class="menu__link menu__link--active">Blog</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#contact" class="menu__link menu__link--active">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fresh  Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="fresh">
+                <h1 class="fresh__title">fresh life</h1>
+                <p class="fresh__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+                <a class="btn_1 warning_1">Get free now</a>
+            </div>
+            <a href="#about" class="scroll">
+                <img src="./image/02.png" alt="scroll down" class="scroll__image">
+            </a>
+        </div>
+    </section>
+    <!-- ABOUT Section -->
+    <main>
+        <section class="about__block" id="about">
+            <div class="container">
+                <div class="about">
+                    <div class="about__pic pic">
+                        <img src="./image/03.png" alt="plate" class="about__img">
+                    </div>
+                    <div class="about__text text">
+                        <h2 class="about__title title">About Us</h2>
+                        <p class="about__parag">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                        <p class="about__parag">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES Section -->
+        <section class="services__block" id="services">
+            <div class="container">
+                <div class="services">
+                    <ul class="services__menu">
+                        <li>
+                            <a href="#" class="category">
+                                <div class="category__link">Online shopping</div>
+                                <div class="category__icon">
+
+                                    <svg class="icon__shopping icon"><use xlink:href="icons/sprite.svg#truck"></use></svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="category">
+                                <div class="category__link">Quality product</div>
+                                <div class="category__icon">
+                                    <svg class="icon__product icon"><use xlink:href="icons/sprite.svg#arm"></use></svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="category">
+                                <div class="category__link">Domestic & International Delivery</div>
+                                <div class="category__icon">
+                                    <svg class="icon__delivery icon"><use xlink:href="icons/sprite.svg#globe"></use></svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="category">
+                                <div class="category__link">Well Organized</div>
+                                <div class="category__icon">
+                                    <svg class="icon__organized icon"><use xlink:href="icons/sprite.svg#carrot"></use></svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="services__item">
+                        <h2 class="h2 h2__white">Our Services</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="block-header">
+                    <h2 class="block-header__title">Gallery</h2>
+                    <p class="block-header__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="gallery__images">
+                    <a href="#" class="gallery__image-wrap gallery__image-wrap--one">
+                        <img class="gallery__image" src="./image/05.png" alt="peach">
+                    </a>
+                    <a href="#" class="gallery__image-wrap gallery__image-wrap--two">
+                        <img class="gallery__image" src="./image/06.png" alt="blueberry">
+                    </a>
+                    <a href="#" class="gallery__image-wrap gallery__image-wrap--three">
+                        <img class="gallery__image" src="./image/07.png" alt="blackberry">
+                    </a>
+                    <a href="#" class="gallery__image-wrap gallery__image-wrap--four">
+                        <img class="gallery__image" src="./image/08.png" alt="berry">
+                    </a>
+                    <a href="#" class="gallery__image-wrap gallery__image-wrap--five">
+                        <img class="gallery__image" src="./image/09.png" alt="fruct">
+                    </a>
+                </div>
+                <div class="btn_box--gallery">
+                    <a class="btn_1 warning_2">VIEW MORE</a>
+                </div>
+            </div>
+        </section>
+        <!--Subscribe Section -->
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__wrapper">
+                    <h3 class="subscribe__h3">Subscribe To Us</h3>
+                    <p class="subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <form class="subscribe_form" action="#">
+                    <input class="subscribe_email" type="email" placeholder="Your email address...">
+                    <a class="btn_1 warning_3">SUBSCRIBE</a>
+                </form>
+            </div>
+        </section>
+        <!--Blog Section -->
+        <section class="blog" id="blog">
+            <div class="container">
+                <div class="block-header block-header--white">
+                    <h2 class="block-header__title">Blog</h2>
+                    <p class="block-header__text block-header--white__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+
+                <div class="blog__items">
+                    <div class="blog__item">
+                        <div class="blog__wrap-pic">
+                            <img src="./image/11.png" alt="" class="blog__pic">
+                        </div>
+                        <div class="blog__wrap-main">
+                            <time datetime="2020-11-20 12:00" class="blog__data"><span class="number-heavy">20</span> nov</time>
+                            <div class="blog__wrap-subtitle">
+                                <a href="#" class="blog__subtitle">Green Smoothies: Too Much of a<br>Good Thing?</a>
+                                <address class="blog__address">By Auskteez - 2 hours ago</address>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div class="blog__wrap-pic">
+                            <img src="./image/12.png" alt="" class="blog__pic">
+                        </div>
+                        <div class="blog__wrap-main">
+                            <time datetime="2020-11-14 12:00" class="blog__data"><span class="number-heavy">14</span> NOV</time>
+                            <div class="blog__wrap-subtitle">
+                                <a href="#" class="blog__subtitle">Growing Food and a “Thirst” for<br>Innovation</a>
+                                <address class="blog__address">By Auskteez - 3 hours ago</address>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div class="blog__wrap-pic">
+                            <img src="./image/13.png" alt="" class="blog__pic">
+                        </div>
+                        <div class="blog__wrap-main">
+                            <time datetime="2020-11-10 12:00" class="blog__data"><span class="number-heavy">10</span> nov</time>
+                            <div class="blog__wrap-subtitle">
+                                <a href="#" class="blog__subtitle">Pesticides & Food: What You Need<br>to Know</a>
+                                <address class="blog__address">By Auskteez - 4 hours ago</address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sections-content">
+                    <a class="btn_1 warning_4">View more</a>
+
+                </div>
+            </div>
+        </section>
+        <!--Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="block-header">
+                    <h2 class="block-header__title">Contact</h2>
+                    <p class="block-header__text block-header__text--xs">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+                </div>
+                <div class="contact__main">
+                    <form action="" class="contact__form">
+                        <input type="text" name="name" class="contact__input" placeholder="Your name..." required>
+                        <input type="email" name="email" class="contact__input" placeholder="Your email..." required>
+                        <input type="tel" name="tel" class="contact__input" placeholder="Your phone number..." required minlength="11">
+                        <textarea name="message" id="" cols="30" rows="10" class="contact__input contact__area" placeholder="Your message..." required maxlength="160"></textarea>
+                        <button type="submit" class="registerbtn">SEND</button>
+                    </form>
+                    <dl class="contact__list">
+                        <dt class="contact__term">Address</dt>
+                        <dd class="contact__description">123 City name, Street, City, Country</dd>
+                        <dt class="contact__term">Email</dt>
+                        <dd class="contact__description"><a href="malito:cahee@domain.com">cahee@domain.com</a></dd>
+                        <dt class="contact__term">Phone</dt>
+                        <dd class="contact__description"><a href="tel:+0123456789">+0123456789</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--- Footer Section-->
+    <footer>
+        <div class="container">
+            <div class="footer" id="footer">
+                <p class="footer__resev">© 2015 Company. All right reserved</p>
+                <a href="#" class="footer__link"><img src="./image/logo2.png" alt="cahee" class="footer__img"></a>
+                <p class="made">Made with <span class="red">love</span> by Auskteez</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/onload.js"></script>
+    <script src="./js/main.js "></script>
+
+</body>
+
+</html>
